@@ -49,6 +49,13 @@ code index.html // change the content and save
 az webapp up -g $resourceGroup -n $appName --html
 ```
 
+Present the result
+  - Navigate to https://az204app30586.azurewebsites.net/
+
+```powershell
+curl https://az204app30586.azurewebsites.net/
+```
+
 ### Media
 ![image](https://github.com/ViCunha/Lab-Azure-AzureAppService-WebApp-StaticHTMLbyAzureCLI/assets/65992033/721f7368-09b3-4d9b-b023-03e14da10a0b)
 ---

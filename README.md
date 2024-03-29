@@ -1,0 +1,1 @@
+# Lab-Azure-AzureAppService-WebApp-StaticHTMLbyAzureCLI

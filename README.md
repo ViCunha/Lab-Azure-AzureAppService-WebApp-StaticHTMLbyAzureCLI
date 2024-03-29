@@ -2,8 +2,7 @@
 ### Overview
 ---
 Create a static HTML web app by using Azure Cloud Shell. In this exercise, you'll deploy a basic HTML+CSS site to Azure App Service by using the Azure CLI az webapp up command. You'll then update the code and redeploy it by using the same command.
-
-
+   
 ### Key Aspects
 ---
 Azure Cloud Shell

@@ -1,20 +1,31 @@
 
 ### Overview
-
+---
 Create a static HTML web app by using Azure Cloud Shell. In this exercise, you'll deploy a basic HTML+CSS site to Azure App Service by using the Azure CLI az webapp up command. You'll then update the code and redeploy it by using the same command.
 
-_Azure Cloud Shell_
 
-_This module requires a sandbox to complete. A sandbox gives you access to Azure resources. Your Azure subscription will not be charged. The sandbox may only be used to complete training on Microsoft Learn. Use for any other reason is prohibited, and may result in permanent loss of access to the sandbox. Microsoft provides this lab experience and related content for educational purposes. All presented information is owned by Microsoft and intended solely for learning about the covered products and services in this Microsoft Learn module._
+### Key Aspects
+---
+Azure Cloud Shell
+
+- This module requires a sandbox to complete. A sandbox gives you access to Azure resources. Your Azure subscription will not be charged. The sandbox may only be used to complete training on Microsoft Learn. Use for any other reason is prohibited, and may result in permanent loss of access to the sandbox. Microsoft provides this lab experience and related content for educational purposes. All presented information is owned by Microsoft and intended solely for learning about the covered products and services in this Microsoft Learn module.
+
+az webapp up
+
+- The az webapp up command makes it easy to create and update web apps. When executed it performs the following actions:
+  - Create a default resource group if one isn't specified.
+  - Create a default app service plan.
+  - Create an app with the specified name.
+  - Zip deploy files from the current working directory to the web app.
 
 ### Environment
-
+---
 - Microsoft Azure Portal
   - Valid Subscription
   - Sandbox
 
 ### Actions
-
+---
 Prepare the environment
   - Activate the Azure Sandbox
 
@@ -57,11 +68,12 @@ curl https://az204app30586.azurewebsites.net/
 ```
 
 ### Media
+---
 ![image](https://github.com/ViCunha/Lab-Azure-AzureAppService-WebApp-StaticHTMLbyAzureCLI/assets/65992033/721f7368-09b3-4d9b-b023-03e14da10a0b)
 ---
 ![image](https://github.com/ViCunha/Lab-Azure-AzureAppService-WebApp-StaticHTMLbyAzureCLI/assets/65992033/a3aff692-911b-454c-a5fd-070c96398409)
 
 
 ### References
-
+---
 - [Create a static HTML web app by using Azure Cloud Shell | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/7-create-html-web-app)
